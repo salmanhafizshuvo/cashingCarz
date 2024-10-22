@@ -28,11 +28,6 @@ body {
     color: #FFFDF5;
     font-weight: bold;
 }
-.hero-img{
-    
-    width: 250px;
-    height: 100px;
-}
 .hero-text {
     font-size: 3rem;
     font-weight: bold;
@@ -51,6 +46,12 @@ body {
 .card{
     border: none;
 }
+.bg-img-one{
+    background-image: url('/asset/images/Theme/Home-IMG-02.png'); /* path to your image */
+    background-size: contain; /* change this to 'contain', 'cover', or specific dimensions */
+    background-position: top left; /* change this to desired position (e.g., 'top', 'bottom', 'left', 'right', or specific coordinates) */
+    background-repeat: no-repeat; /
+}
 .hero-subtext {
     font-size: 1.5rem;
     font-weight: bold;    
@@ -65,4 +66,9 @@ body {
     color: #FFFDF5;
     font-weight: bold;
 }
- 
+
+@media (max-width: 768px) {
+    .bg-img-one {
+        background-image: none; /* Remove background image */
+    }
+}
