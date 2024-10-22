@@ -69,6 +69,6 @@ body {
 
 @media (max-width: 768px) {
     .bg-img-one {
-        background-image: none; /* Remove background image */
+        background-image: none; 
     }
 }
