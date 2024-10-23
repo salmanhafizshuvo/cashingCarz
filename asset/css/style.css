@@ -14,17 +14,17 @@ body {
     height: 200px;
 }
 .nav-link {
-    color: #000 !important;
+    color: #2b2b2b !important;
     font-weight: bold;
 }
 .btn-chat {
     background-color: #FFFDF5;
-    color: #000;
-    border: 2px solid #000;
+    color: #2b2b2b;
+    border: 2px solid #2b2b2b;
     font-weight: bold;
 }
 .btn-signin {
-    background-color: #000;
+    background-color: #2b2b2b;
     color: #FFFDF5;
     font-weight: bold;
 }
@@ -34,10 +34,10 @@ body {
     line-height: 1.2;
 }
 .Dallas{
-    color: #FFD700;
+    color: #ffda50;
 }
 .car-info-title{
-    background: #000;
+    background: #2b2b2b;
     color: white;
     padding: 10px;
     text-align: center;
@@ -47,7 +47,7 @@ body {
     border: none;
 }
 .bg-img-one{
-    background-image: url('/asset/images/Theme/Home-IMG-02.png'); /* path to your image */
+    background-image: url('/asset/images/Theme IMG 01 to 09/Home-IMG-02.png'); /* path to your image */
     background-size: contain; /* change this to 'contain', 'cover', or specific dimensions */
     background-position: top left; /* change this to desired position (e.g., 'top', 'bottom', 'left', 'right', or specific coordinates) */
     background-repeat: no-repeat; /
@@ -57,14 +57,22 @@ body {
     font-weight: bold;    
 }
 .form-control {
-    background-color: #FFD700;
+    background-color: #ffda50;
     border: none;
-    color: #000;
+    color: #2b2b2b;
 }
 .btn-offer {
-    background-color: #000;
+    background-color: #2b2b2b;
     color: #FFFDF5;
     font-weight: bold;
+}
+.input-group input{
+    background: #FFFDF5;
+}
+.input-group button{
+    background-color: #2b2b2b;
+    border: none;
+    color: white;
 }
 
 @media (max-width: 768px) {
@@ -72,3 +80,5 @@ body {
         background-image: none; 
     }
 }
+
+ 
