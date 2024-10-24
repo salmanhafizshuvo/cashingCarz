@@ -74,10 +74,38 @@ body {
     border: none;
     color: white;
 }
+.sAndb p{
+    width: 75%;
+}
+.yText{
+    display: flex;
+    align-items: center;
+}
+.yText h1{
+    border-radius: 10px;
+    width: 65%;
+}
+.yText button{
+    border: none;
+    background-color:#2b2b2b;
+    color: #ffda50;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    transition: background-color 0.4s ease;
+}
+.yText button:hover{
+    color: #2b2b2b;
+    background-color: #ffda50;
+}
 
 @media (max-width: 768px) {
     .bg-img-one {
         background-image: none; 
+    }
+    .sAndb p{
+        width: 100%;
     }
 }
 
