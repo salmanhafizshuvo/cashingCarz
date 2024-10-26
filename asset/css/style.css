@@ -102,6 +102,8 @@ body {
 
 .places{
     background-color: #ffda50;
+    position: relative;
+    z-index: -2;
 }
 
 .header-section {
@@ -185,11 +187,27 @@ body {
     position: relative;
    
 } 
-.places img{
+.places .img1{
     width: 400px;
     position: absolute;
- 
+    bottom: 350px;
+    z-index: -1;
 }
+.places .img2{
+    width: 400px;
+    position: absolute;
+    bottom: 350px;
+    right: 0px;
+    z-index: -1;
+}
+.places .img3{
+    width: 400px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
 
 @media (max-width: 768px) {
     .bg-img-one {
