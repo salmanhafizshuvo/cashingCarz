@@ -276,13 +276,13 @@ background-color: #2b2b2b;
   transition: max-height 0.6s ease, padding 0.4s ease;
 }
 
-/* Content Visible */
+/* accordion Visible */
 .accordion-item input:checked ~ .accordion-header::after {
   transform: rotate(45deg);
 }
 
 .accordion-item input:checked ~ .accordion-content {
-  max-height: 500px; /* Adjust based on content height */
+  max-height: 500px;  
   padding: 15px;
 }
 
@@ -291,6 +291,9 @@ background-color: #2b2b2b;
   display: none;
 }
  
+ .footer{
+    min-height: 10vh;
+ }
 
 @media (max-width: 768px) {
     .bg-img-one {
@@ -328,11 +331,11 @@ background-color: #2b2b2b;
         background-color: #333;
         color: #ffd700;
         text-align: center;
-        padding: 20px 20px;
-        
+        padding: 20px 20px;      
         font-weight: bold;
         border-radius: 0px 0px 100px 100px;
       }
+ 
 }
 
  
