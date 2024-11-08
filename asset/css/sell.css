@@ -95,10 +95,30 @@ body {
     border: 1px solid #FFD43B;
 }
  
-.img01 img{
-    width: 50px;
+.imgcs{
+    position: relative;
 }
-
+.imgcs .img1{
+    width: 200px;
+    position: absolute;
+    bottom: -108px;
+    right: 0px;
+    z-index: 0;
+}
+ .imgcs .img2{
+    width: 200px;
+    position: absolute;
+    bottom: -108px;
+    left: 0px;
+    z-index: 0;
+ }
+ .yimg{
+    display: flex;
+    justify-content: center;
+ }
+ .bgCc{
+    background-color: #fed950;
+ }
    /*  footer styles */
    .footer {
     background-color: #2b2b2b;

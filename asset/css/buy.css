@@ -65,6 +65,13 @@ body {
 .tcb{
     background-color: #2b2b2b;
 }
+.bgww{
+    display: flex;
+    justify-content: center;
+}
+.bgww .img5{
+    height: 500px;
+}
 
 .benefits-section {
     background-color: #333;
